@@ -7,7 +7,7 @@ import urequests
 setupssid = input("Enter WLAN/Wi-Fi SSID: ")
 setuppassword = input("Enter WLAN/Wi-Fi password: ")
 setupurl = 'https://raw.githubusercontent.com/Beguwula/PicoDownloader/main/downloader.py'
-setupfilename = 'download.py'
+setupfilename = 'downloader.py'
 def connect(ssid, password):
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
