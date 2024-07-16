@@ -11,7 +11,6 @@ def connect(ssid, password):
     while wlan.isconnected() == False:
         print('Waiting for connection...')
         sleep(1)
-    print(wlan.ifconfig())
 def download(url, filename):
     path = filename
     response = urequests.get(url)
